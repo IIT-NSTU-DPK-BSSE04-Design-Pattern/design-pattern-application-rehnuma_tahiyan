@@ -1,0 +1,6 @@
+
+Scenario Beta: Data Processing Pipeline
+Problem: Process different file formats (CSV, JSON, XML) with the same workflow (read, parse, save) but varying implementations.
+Design Pattern: Strategy Pattern
+Encapsulates specific file processing logic (CSV, JSON, XML) into interchangeable strategies.
+Allows easy addition of new file types without modifying the core workflow.
